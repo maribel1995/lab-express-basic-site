@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: #ccc;
+    width: 100%;
+}
+.nav__items{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.nav__item{
+    margin:10px;
+    list-style: none;
+}
+.nav__item a {
+    text-decoration: none;
+    color: #5e5c5c;
+}
+.main{
+    width: 720px;
+    margin: 0 auto;
+}
+
+.main h1{
+    text-align: center;
+}
